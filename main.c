@@ -15,7 +15,7 @@ int main()
   for (int i = 5 ; i ; i--)
   printf("Print count = %d \n", i);
   
-  
+  print("Hello World\n");
   return;
 
 }
