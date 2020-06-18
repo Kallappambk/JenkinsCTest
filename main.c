@@ -16,6 +16,6 @@ int main()
   printf("Print count = %d \n", i);
   
   
-  return 0;
+  return;
 
 }
