@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "header.h"
 
 void vPrintFunc(void)
 {
@@ -14,8 +14,8 @@ int main()
   signed int i=5;
   for (int i = 5 ; i ; i--)
   printf("Print count = %d \n", i);
-  
-  print("Hello World\n");
-  return;
-
+ 
+funcforHeaderfile();
+  printf("Hello World\n");
+  return 0 ;
 }
